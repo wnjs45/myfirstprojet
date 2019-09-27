@@ -20,16 +20,21 @@ int main(){
 		}
 		if(sww == 0){
 		       	digitalWrite(LED1, HIGH);
+			delay(100);
 		}else if(sww == 1){
 			digitalWrite(LED1, LOW);
 			digitalWrite(LED2, HIGH);
+			delay(100);
 		}else if(sww == 2){
 			digitalWrite(LED1, HIGH);
+			delay(100);
 		}else if(sww == 3){
 			digitalWrite(LED1, LOW);
 			digitalWrite(LED2, LOW);
+			delay(100);
 		}else if(sww ==4){
 			sww = 0;
+			delay(100);
 		}	
 	}
 
